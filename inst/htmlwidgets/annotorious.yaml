@@ -1,0 +1,12 @@
+dependencies:
+  - name: annotorious
+    version: 2.7.10
+    src: htmlwidgets/lib/anno-2.7.10
+    stylesheet:
+      - annotorious.min.css
+    script:
+      - annotorious.min.js
+      - a-shape-labels-latest/annotorious-shape-labels.min.js
+      - a-toolbar-latest/annotorious-toolbar.min.js
+      - a-selector-pack-latest/annotorious-selector-pack.js
+      - a-better-polygon-latest/annotorious-better-polygon.js
