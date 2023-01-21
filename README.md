@@ -1,6 +1,7 @@
 # irecogito
 
 Annotate text with your tags / Annotate areas of interests in images with your own labels
+Modified version includes changes in annotorious htmlWidget enabling addition of annotations from R and improvements of annotorious toolbar plugin.   
 
 * This repository contains an R package which provides a [htmlwidget](https://www.htmlwidgets.org) library for [recogito-js](https://github.com/recogito/recogito-js) and  [annotorious](https://github.com/recogito/annotorious).
 * The package allows to 

@@ -22,7 +22,7 @@ HTMLWidgets.widget({
     
     // dodamo se ostale moznosti oznacevanja
     Annotorious.SelectorPack(anno, {
-      tools: ['circle']
+      tools: ['point']
     });
     
     Annotorious.Toolbar(anno, el.id, document.getElementById(el.id.concat("-outer-container")));
@@ -106,6 +106,7 @@ HTMLWidgets.widget({
           for (let i = 0; i < annots.length; i++) { 
             anno.addAnnotation(JSON.parse(annots[i]));
           };
+          //anno.addAnnotation(x.addAnnotations);
           Shiny.setInputValue(x.inputId, JSON.stringify(anno.getAnnotations()));
         }; 
         //anno.refresh();
