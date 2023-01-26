@@ -1,5 +1,5 @@
 Package: irecogito
-Title: Interactive Annotation of Text and Images - Modified 
+Title: Interactive Annotation of Text and Images - Modified Version
 Version: 0.3.1
 Authors@R: c(
     person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jwijffels@bnosac.be'), 
@@ -7,7 +7,7 @@ Authors@R: c(
     person('Pelagios Network', role = 'cph', comment = "code in inst/htmlwidgets/lib"),
     person('CodePlex Foundation', role = 'cph', comment = "code in inst/htmlwidgets/lib/openseadragon-2.4.2"),
     person('OpenSeadragon contributors', role = 'cph', comment = "code in inst/htmlwidgets/lib/openseadragon-2.4.2"),
-    person('Janez', 'Zibert', role = 'cph', comment = "Improve code."))
+    person('Janez', 'Zibert', role = 'cph', comment = "Improve code. "))
 Description: Annotate text with entities and the relations between them. Annotate areas of interest in images with your labels. 
     Providing 'htmlwidgets' bindings to the 'recogito' <https://github.com/recogito/recogito-js> and 'annotorious' <https://github.com/recogito/annotorious> libraries.
 License: BSD_3_clause + file LICENSE
