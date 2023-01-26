@@ -22,7 +22,7 @@ HTMLWidgets.widget({
     
     // dodamo se ostale moznosti oznacevanja
     Annotorious.SelectorPack(anno, {
-      tools: ['freehand','point']
+      tools: ['point']
     });
     
     Annotorious.Toolbar(anno, el.id, document.getElementById(el.id.concat("-outer-container")));
